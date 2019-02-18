@@ -10,36 +10,40 @@ permalink: /cuir-fios/
   <!-- all your input fields here.... -->
   <div class="form-group">
 
-    D' ainm
-    <input class="form-control" type='text' name='name' />
+    <label for="name">D' ainm</label>
+    <input class="form-control" type='text' id='name' />
 
-    Do sheòladh puist-d
-    <input class="form-control" type='text' name='email' />
+    <label for="email">Do sheòladh puist-d</label>
+    <input class="form-control" type='text' id='email' />
 
-    Ainm an Tachartais
-    <input class="form-control" type='text' name='eventname' />
+    <label for="eventname">Ainm an Tachartais</label>
+    <input class="form-control" type='text' id='eventname' />
 
-    Ceann-latha
-    <input class="form-control" type='text' name='date' />
+    <div class="form-row">
+      <div class="form-col">
+        <label for="date">Ceann-latha</label>
+        <input class="form-control" type='text' id='date' />
+      </div>
+      <div class="form-col">
+        <label for="time">Àm tòisichidh</label>
+        <input class="form-control" type='text' id='time' />
+      </div>
+    </div>
 
-    Àm tòisichidh
-    <input class="form-control" type='text' name='time' />
+    <label for="address">Seòladh</label>
+    <input class="form-control" type='text' id='address' />
 
-    Seòladh
-    <input class="form-control" type='text' name='address' />
+    <label for="website">Làrach-lìn an tachartais / nan eagraichean</label>
+    <input class="form-control" type='text' id='website' />
 
-    Làrach-lìn an tachartais / nan eagraichean
-    <input class="form-control" type='text' name='website' />
+    <label for="twitter">Duilleag Twitter an tachartais / nan eagraichean</label>
+    <input class="form-control" type='text' id='twitter' />
 
-    Duilleag Twitter an tachartais / nan eagraichean
-    <input class="form-control" type='text' name='twitter' />
+    <label for="facebook">Duilleag Facebook an tachairtais / nan eagraichean</label>
+    <input class="form-control" type='text' id='facebook' />
 
-    Duilleag Facebook an tachairtais / nan eagraichean
-    <input class="form-control" type='text' name='facebook' />
-
-    Tuairisgeul
-
-    <input class="form-control" type='textarea' name='description' />
+    <label for="description">Tuairisgeul</label>
+    <input class="form-control" type='textarea' id='description' />
 
   </div>
   <input class="btn btn-primary" type='submit' value='Cuir a-steach' />
