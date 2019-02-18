@@ -15,14 +15,6 @@ title: Dachaigh
       </div>
       <div class="col-9">
         <h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h5>
-        {% if post.author %}
-        <p class="text-muted">{{ post.date | date: "%Y-%m-%d" }} le <a href="{{ post.author_url }}">{{ post.author }}</a></p>
-
-        {% else %}
-
-        <p class="text-muted">{{ post.date | date: "%Y-%m-%d" }} le <a href="#">Crìstean MacMhìcheil</a></p>
-
-        {% endif %}
         {{ post.excerpt }}
       </div>
     </div>
