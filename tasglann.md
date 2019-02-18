@@ -4,17 +4,25 @@ title: Tasglann
 permalink: /tasglann/
 ---
 
-<div class="list-group">
+<div class="container">
+    {% for post in site.categories.roimhe %}
+  <div class="row">
+    <div class="col-md-3">
+      <a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ post.image }}" class="index-image"></a>
+    </div>
+    <div class="col-md-9">
+      <h5 class="post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h5>
+      {% if post.author %}
+      <p class="text-muted">{{ post.date | date: "%Y-%m-%d" }} le <a href="{{ post.author_url }}">{{ post.author }}</a></p>
 
-{% for post in site.posts %}
-	{% assign currentDate = post.date | date: "%Y" %}
-	{% if currentDate != myDate %}
-		<h2 class="archive-page-date">{{ currentDate }}</h2>
-		{% assign myDate = currentDate %}
-	{% endif %}
-	<a class="list-group-item list-group-item-action" href="{{ site.baseurl }}{{ post.url }}">
-		<span>{{ post.date | date: "%Y-%m-%d" }}</span> &nbsp; &nbsp; {{ post.title }}
-	</a>
-{% endfor %}
+      {% else %}
 
-</div>
+      <p class="text-muted">{{ post.date | date: "%Y-%m-%d" }} le <a href="{{ site.baseurl}}/mu-dheidhinn/">Crìstean MacMhìcheil</a></p>
+
+      {% endif %}
+      {{ post.excerpt }}
+    </div>
+  </div>
+  <hr/>
+  {% endunless %}
+    {% endfor %}
