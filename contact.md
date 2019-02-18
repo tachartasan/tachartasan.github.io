@@ -6,7 +6,7 @@ permalink: /cuir-fios/
 
 <form action="https://getsimpleform.com/messages?form_api_token=a7f1c2224c700f1d8c64896757363f9a" method="post">
   <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-  <input type='hidden' name='redirect_to' value='{{ site.baseurl}}' />
+  <input type='hidden' name='redirect_to' value='https://tachartasan.github.io/cuir-fios/soirbheachail/' />
   <!-- all your input fields here.... -->
   <div class="form-group">
 
