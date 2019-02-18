@@ -6,7 +6,7 @@ permalink: /tasglann/
 
 <div class="container">
   {% for post in paginator.posts %}
-  {% if post.categories.roimhe %}
+  {% if site.categories.roimhe %}
     <div class="row">
       <div class="col-md-3">
         <a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ post.image }}" class="index-image"></a>
