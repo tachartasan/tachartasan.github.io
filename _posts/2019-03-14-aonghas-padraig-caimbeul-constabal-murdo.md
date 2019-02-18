@@ -1,8 +1,8 @@
 ---
 title: Aonghas Pàdraig Caimbeul Constabal Murdo
 date: 2019-03-14 18:00:00
-image: /images/2019-03-14-aonghas-padraig-caimbeul-constabal-murdo.jpg
-permalink: /2019-03-14-aonghas-padraig-caimbeul-constabal-murdo/
+image: https://raw.githubusercontent.com/tachartasan/tachartasan.github.io/master/images/2019-03-14-aonghas-padraig-caimbeul-constabal-murdo.jpg
+permalink: {{ site.baseurl }}/2019-03-14-aonghas-padraig-caimbeul-constabal-murdo/
 type: post
 comments: true
 categories: leabraichean
