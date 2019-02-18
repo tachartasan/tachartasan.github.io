@@ -10,7 +10,7 @@ layout: page
   <p>There is no article in this category.</p>
 {% endunless %}
 
-{% for post in site.categoties[page.category] reversed %}
+{% for post in site.categories[page.category] reversed %}
 {% unless post.categories contains "blog" %}
   <div class="container">
     <div class="row">
