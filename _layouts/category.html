@@ -11,20 +11,21 @@ layout: page
 {% endunless %}
 
 {% for post in site.categories[page.category] %}
-<div class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-        <h2 class="post-title">
-            {{ post.title }}
-        </h2>
-        {% if post.subtitle %}
-        <h3 class="post-subtitle">
-            {{ post.subtitle }}
-        </h3>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ post.image }}" class="index-image"></a>
+      </div>
+      <div class="col-md-9">
+        <h5 class="post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h5>
+        {% if post.author %}
+          <p class="text-muted">{{ post.date | date: "%Y-%m-%d" }} le <a href="{{ post.author_url }}">{{ post.author }}</a></p>
+          {% else %}
+          <p class="text-muted">{{ post.date | date: "%Y-%m-%d" }} le <a href="{{ site.baseurl}}/mu-dheidhinn/">Crìstean MacMhìcheil</a></p>
         {% endif %}
-    </a>
-    <p class="post-meta">
-      {{ post.date | date: "%Y-%m-%d" }}
-    </p>
-</div>
-<hr>
+        {{ post.excerpt }}
+      </div>
+    </div>
+  </div>
+  <hr/>
 {% endfor %}
