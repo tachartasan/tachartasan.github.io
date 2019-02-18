@@ -23,3 +23,20 @@ SimpleJekyllSearch({
   json: '{{ site.baseurl }}/search.json'
 })
 </script>
+
+<h4>Na postaichean as ùire</h4>
+
+<p>'S e seo liosta de na tachartasan as ùire anns gach roinn-seòrsa:</p>
+
+<ul>
+{% assign sorted_categories = site.categories | sort %}
+  {% for category in sorted_categories %}
+    <li><a name="{{ category | first }}">{{ category | first }}</a>
+      <ul>
+      {% for post in category.last limit:3 %}
+        <li><a href="{{ site.baseurl }}/{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+      </ul>
+    </li>
+  {% endfor %}
+</ul>
