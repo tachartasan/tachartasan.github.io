@@ -19,12 +19,12 @@ permalink: /cuir-fios/
     <label for="eventname">Ainm an Tachartais</label>
     <input class="form-control" type='text' id='eventname' />
 
-    <div class="form-row">
-      <div class="form-col">
+    <div class="row">
+      <div class="col">
         <label for="date">Ceann-latha</label>
         <input class="form-control" type='text' id='date' />
       </div>
-      <div class="form-col">
+      <div class="col">
         <label for="time">Àm tòisichidh</label>
         <input class="form-control" type='text' id='time' />
       </div>
