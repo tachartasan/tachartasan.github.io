@@ -24,5 +24,4 @@ permalink: /tasglann/
     </div>
   </div>
   <hr/>
-  {% endunless %}
-    {% endfor %}
+  {% endfor %}
