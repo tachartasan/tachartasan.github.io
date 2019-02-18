@@ -13,8 +13,7 @@ permalink: /cuir-fios/
     <label for="name">D' ainm</label>
     <input class="form-control" type='text' id='name' required />
 
-    <label for="email">Do sheòladh puist-d</label>
-    <input class="form-control" type='text' id='email' required />
+    <label for="email">Do sheòladh puist-d</label> <input class="form-control" type='text' id='email' required />
 
     <label for="eventname">Ainm an Tachartais</label>
     <input class="form-control" type='text' id='eventname' required />
