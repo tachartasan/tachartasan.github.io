@@ -11,7 +11,7 @@ permalink: /cuir-fios/
   <div class="form-group">
 
     D' ainm
-    <input type='text' name='name' />
+    <input class="form-control" type='text' name='name' />
 
     Do sheòladh puist-d
     <input class="form-control" type='text' name='email' />
