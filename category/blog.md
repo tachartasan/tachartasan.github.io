@@ -1,6 +1,6 @@
 ---
 layout: category
 title: Blog
-category: blog
+category: Blog
 permalink: /roinn-seorsa/blog/
 ---

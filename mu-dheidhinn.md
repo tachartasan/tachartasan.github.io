@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Mu dheidhinn Gèidh.uk
+title: Mu dheidhinn
 permalink: /mu-dheidhinn/
 ---
 
-Tuairisgeul ri thighinn
+A' toirt thugaibh na naidheachdan teicneòlais as ùire le fòcas àraidh air teicneòlas Apple.
 
-##### Mu dheidhinn Crìstean MacMhìcheil
+##### Mu Dheidhinn Crìstean MacMhìcheil
 
 ‘S ann à Inbhir Pheofharain a tha mi o thùs agus tha mi air a bhith a’ fuireach ann an Sìorrachd Rois cha mhòr fad mo bheatha.
 
@@ -20,7 +20,7 @@ Tha mi nam glasraichear-cruaidh (vegan).
 
 ##### Cuir Fios
 
-Twitter: [@Tachartasan](https://www.twitter.com/Tachartasan)
+Twitter: [@GeidhUK](https://www.twitter.com/GeidhUK)
 
 Twitter Chrìstein: [@MacMhìcheil](https://www.twitter.com/MacMhicheil)
 
