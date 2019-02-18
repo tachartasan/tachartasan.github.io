@@ -6,8 +6,8 @@ layout: default
 title: Dachaigh
 ---
 
-{% unless post.categories contains "roimhe" %}
 {% for post in paginator.posts reversed %}
+{% unless post.categories contains "roimhe" %}
   <div class="container">
     <div class="row">
       <div class="col-3">
@@ -28,8 +28,8 @@ title: Dachaigh
     </div>
     <hr/>
   </div>
+  {% endunless %}
 {% endfor %}
-{% endunless %}
 
 
 <!-- Pagination -->
