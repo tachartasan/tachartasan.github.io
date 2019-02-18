@@ -11,27 +11,27 @@ permalink: /cuir-fios/
   <div class="form-group">
 
     <label for="name">D' ainm</label>
-    <input class="form-control" type='text' id='name' />
+    <input class="form-control" type='text' id='name' required />
 
     <label for="email">Do sheòladh puist-d</label>
-    <input class="form-control" type='text' id='email' />
+    <input class="form-control" type='text' id='email' required />
 
     <label for="eventname">Ainm an Tachartais</label>
-    <input class="form-control" type='text' id='eventname' />
+    <input class="form-control" type='text' id='eventname' required />
 
     <div class="row">
       <div class="col">
         <label for="date">Ceann-latha</label>
-        <input class="form-control" type='text' id='date' />
+        <input class="form-control" type='text' id='date' required />
       </div>
       <div class="col">
         <label for="time">Àm tòisichidh</label>
-        <input class="form-control" type='text' id='time' />
+        <input class="form-control" type='text' id='time' required />
       </div>
     </div>
 
     <label for="address">Seòladh</label>
-    <input class="form-control" type='text' id='address' />
+    <input class="form-control" type='text' id='address' required />
 
     <label for="website">Làrach-lìn an tachartais / nan eagraichean</label>
     <input class="form-control" type='text' id='website' />
@@ -43,7 +43,7 @@ permalink: /cuir-fios/
     <input class="form-control" type='text' id='facebook' />
 
     <label for="description">Tuairisgeul</label>
-    <input class="form-control" type='textarea' id='description' />
+    <input class="form-control" type='textarea' id='description' required />
 
   </div>
   <input class="btn btn-primary" type='submit' value='Cuir a-steach' />
