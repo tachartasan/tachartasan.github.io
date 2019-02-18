@@ -9,9 +9,9 @@ layout: page
 {% unless site.categories[page.category].size > 0 %}
   <p>There is no article in this category.</p>
 {% endunless %}
-
+<div class="container">
 {% for post in site.categories[page.category] %}
-  <div class="container">
+
     <div class="row">
       <div class="col-md-3">
         <a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ post.image }}" class="index-image"></a>
@@ -26,6 +26,7 @@ layout: page
         {{ post.excerpt }}
       </div>
     </div>
-  </div>
   <hr/>
 {% endfor %}
+
+</div>
