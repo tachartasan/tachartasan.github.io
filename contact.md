@@ -47,5 +47,5 @@ Cuiribh fios thugainn gu h-iosal ma tha sibh aison tachartas a chur ris an iùl-
     <label for="description">Tuairisgeul</label>
     <textarea class="form-control" id='description' name="description" required></textarea>
 
-  <input class="btn btn-primary" type='submit' value='Cuir a-steach' />
+    <input class="btn btn-primary" type='submit' value='Cuir a-steach' />
 </form>
