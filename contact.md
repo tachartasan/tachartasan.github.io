@@ -45,8 +45,8 @@ Cuiribh fios thugainn gu h-iosal ma tha sibh aison tachartas a chur ris an iùl-
     <input class="form-control" type='text' id='facebook' name="facebook" />
 
     <label for="description">Tuairisgeul</label>
-    <input class="form-control" type='textarea' id='description' name="description" required />
+    <textarea class="form-control" id='description' name="description" required />
 
   </div>
-  <input class="btn btn-primary" type='submit' value='Cuir a-steach' />
+  <input class="btn btn-primary" type='submit' value='Cuir a-steach'></textarea>
 </form>
