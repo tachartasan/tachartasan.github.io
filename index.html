@@ -6,7 +6,7 @@ layout: default
 title: Dachaigh
 ---
 
-{% for post in site.categories[page.category] reversed %}
+{% for post in paginator.posts reversed %}
 	{% assign currentDate = post.date | date: "%-m" %}
 	{% if currentDate != myDate %}
 		<h4 class="event-list-month">
