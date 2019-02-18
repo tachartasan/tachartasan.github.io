@@ -113,3 +113,7 @@ body { padding-bottom: 70px; }
     color: #556b2f;
   }
 }
+
+label{
+  margin-top: 5px;
+}
