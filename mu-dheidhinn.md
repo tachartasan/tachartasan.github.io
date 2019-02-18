@@ -4,16 +4,7 @@ title: Mu dheidhinn Gèidh.uk
 permalink: /mu-dheidhinn/
 ---
 
-Bidh Geidh.uk a’ toirt thugaibh sa Ghàidhlig na naidheachdan LGBT+ as ùire le fòcas àraidh air naidheachd Albannach.
-
-Chaidh a stèidheachadh ann an 2008 mar Naidheachdan Pinc le Crìstean MacMhìcheil nuair a bha e na oileanach aig Sabhal Mòr Ostaig.
-
-‘S e prìomh-amasan Geidh.uk a bhith:
-
-* a’ tabhann seirbheis naidheachd do Ghàidheil LCDTE+;
-* a’ brosnachadh cultar, dualchas agus ealain LCDTE+ taobh a-staigh coimhearsnachd na Gàidhlig;
-* a’ brosnachadh  co-ionnanachd agus iomadachd;
-* a’ lughdachadh iomallachd sa choimhearsnachd LCDTE+ Gàidhealach le bhith a’ cruthachadh cheanglaichean brìoghmhor agus luachmhor
+Tuairisgeul ri thighinn
 
 ##### Mu dheidhinn Crìstean MacMhìcheil
 
