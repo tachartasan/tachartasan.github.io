@@ -17,7 +17,7 @@ title: Tachartasan.info
 email: chris@macmhicheil.uk
 description: Iùl-lann de thachartasan a bhuineas ris a' Ghàidhlig no a' Ghàidhealtachd
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://tachartasan.info" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: /:year/:month/:day/:title/
 
 # Pagination number
