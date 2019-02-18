@@ -20,7 +20,7 @@ Tha mi nam glasraichear-cruaidh (vegan).
 
 ##### Cuir Fios
 
-Twitter: [@GeidhUK](https://www.twitter.com/GeidhUK)
+Twitter: [@Tachartasan](https://www.twitter.com/Tachartasan)
 
 Twitter Chrìstein: [@MacMhìcheil](https://www.twitter.com/MacMhicheil)
 
