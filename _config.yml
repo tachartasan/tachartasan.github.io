@@ -13,11 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Gèidh.uk
+title: Tachartasan.info
 email: chris@macmhicheil.uk
-description: A' toirt thugaibh na naidheachdan LCDQT as ùire le fòcas àraidh air naidheachdan Albannach
+description: Iùl-lann de thachartasan a' buntainn ris a' Ghàidhlig.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://geidh.uk" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://tachartasan.info" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: /:year/:month/:day/:title/
 
 # Pagination number
@@ -44,7 +44,7 @@ plugins:
 #   - vendor/ruby/
 
 # Sets the color of the header and page links
-featured-color: "#fb135b"
+featured-color: "#3F7DF8"
 
 # Separator to mark end of post excerpt
 excerpt_separator: <!--more-->
