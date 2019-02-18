@@ -5,26 +5,25 @@
 layout: default
 title: Dachaigh
 ---
+{% for post in paginator.posts %}
+  <div class="container">
+    <div class="row">
+      <div class="col-3">
+        <a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ post.image }}" class="post-image index-image"></a>
+      </div>
+      <div class="col-9">
+        <h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h5>
+        {% if post.author %}
+        <p class="text-muted">{{ post.date | date: "%Y-%m-%d" }} le <a href="{{ post.author_url }}">{{ post.author }}</a></p>
 
-<div class="container">
-    {% for post in site.posts %}
-  <div class="row">
-    <div class="col-3">
-      <a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ post.image }}" class="post-image index-image"></a>
+        {% else %}
+
+        <p class="text-muted">{{ post.date | date: "%Y-%m-%d" }} le <a href="#">Crìstean MacMhìcheil</a></p>
+
+        {% endif %}
+        {{ post.excerpt }}
+      </div>
     </div>
-    <div class="col-9">
-      <h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h5>
-      {% if post.author %}
-      <p class="text-muted">{{ post.date | date: "%Y-%m-%d" }} le <a href="{{ post.author_url }}">{{ post.author }}</a></p>
-
-      {% else %}
-
-      <p class="text-muted">{{ post.date | date: "%Y-%m-%d" }} le <a href="#">Crìstean MacMhìcheil</a></p>
-
-      {% endif %}
-      {{ post.excerpt }}
-    </div>
+    <hr/>
   </div>
-  <hr/>
-    {% endfor %}
-</div>
+{% endfor %}
