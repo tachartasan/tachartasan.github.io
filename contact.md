@@ -4,6 +4,8 @@ title: Cuir Fios
 permalink: /cuir-fios/
 ---
 
+Cuiribh fios thugainn gu h-iosal ma tha sibh aison tachartas a chur ris an iùl-lann.
+
 <form action="https://getsimpleform.com/messages?form_api_token=a7f1c2224c700f1d8c64896757363f9a" method="post">
   <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
   <input type='hidden' name='redirect_to' value='https://tachartasan.github.io/soirbheachail/' />
