@@ -4,7 +4,7 @@ title: Mu dheidhinn
 permalink: /mu-dheidhinn/
 ---
 
-A' toirt thugaibh na naidheachdan teicneòlais as ùire le fòcas àraidh air teicneòlas Apple.
+Ri thighinn
 
 ##### Mu Dheidhinn Crìstean MacMhìcheil
 
