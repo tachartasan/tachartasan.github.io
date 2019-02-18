@@ -9,24 +9,20 @@ layout: page
 {% unless site.categories[page.category].size > 0 %}
   <p>There is no article in this category.</p>
 {% endunless %}
-<div class="container">
-{% for post in site.categories[page.category] %}
 
+{% for post in site.categoties[page.category] reversed %}
+{% unless post.categories contains "blog" %}
+  <div class="container">
     <div class="row">
-      <div class="col-md-3">
-        <a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ post.image }}" class="index-image"></a>
+      <div class="col-3">
+        <a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ post.image }}" class="post-image index-image"></a>
       </div>
-      <div class="col-md-9">
-        <h5 class="post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h5>
-        {% if post.author %}
-          <p class="text-muted">{{ post.date | date: "%Y-%m-%d" }} le <a href="{{ post.author_url }}">{{ post.author }}</a></p>
-          {% else %}
-          <p class="text-muted">{{ post.date | date: "%Y-%m-%d" }} le <a href="{{ site.baseurl}}/mu-dheidhinn/">Crìstean MacMhìcheil</a></p>
-        {% endif %}
+      <div class="col-9">
+        <h5><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h5>
         {{ post.excerpt }}
       </div>
     </div>
-  <hr/>
+    <hr/>
+  </div>
+  {% endunless %}
 {% endfor %}
-
-</div>
