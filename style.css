@@ -153,3 +153,7 @@ a{
 .PageNavigation .next {
   text-align: right;
 }
+
+label{
+  margin-top: 10px;
+}
